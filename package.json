@@ -1,0 +1,22 @@
+{
+	"author": [
+		"Aziz Amerul Faozi",
+		"Rio HPS"
+	],
+	"name": "wacan-kalista",
+	"version": "0.0.1",
+	"description": "Ini buat bikin bacaan di cloud",
+	"main": "ciye",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/rhps/wacan-kalista.git"
+	},
+	"keywords": [
+		"book",
+		"opensource"
+	],
+	"dependencies": {},
+	"engine": {
+		"node": "*"
+	}
+}

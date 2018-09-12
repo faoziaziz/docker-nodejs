@@ -6,16 +6,26 @@
 	"name": "wacan-kalista",
 	"version": "0.0.1",
 	"description": "Ini buat bikin bacaan di cloud",
-	"main": "ciye",
-	"repository": {
-		"type": "git",
-		"url": "https://gitlab.com/rhps/wacan-kalista.git"
+	"main": "ciye.js",
+	"scripts": {
+		"start": "node ciye.js"
 	},
 	"keywords": [
 		"book",
 		"opensource"
 	],
-	"dependencies": {},
+	"dependencies": {
+		"express": "latest",
+		"ejs": "latest"
+	},
+	"devDependencies": {
+		"request": "latest",
+		"tape": "latest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/rhps/wacan-kalista.git"
+	},
 	"engine": {
 		"node": "*"
 	}

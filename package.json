@@ -16,7 +16,9 @@
 	],
 	"dependencies": {
 		"express": "latest",
-		"ejs": "latest"
+		"ejs": "latest",
+		"react": "latest",
+		"react-dom": "latest"
 	},
 	"devDependencies": {
 		"request": "latest",

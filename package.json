@@ -1,0 +1,13 @@
+{
+  "name": "WacanKalista",
+  "version": "0.0.1",
+  "description": "Wacan terindah Web App",
+  "author": "Aziz Faozi <admin@labseni.com>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1"
+  }
+}

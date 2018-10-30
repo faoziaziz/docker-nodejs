@@ -1,13 +1,17 @@
 {
-  "name": "WacanKalista",
-  "version": "0.0.1",
-  "description": "Wacan terindah Web App",
-  "author": "Aziz Faozi <admin@labseni.com>",
-  "main": "server.js",
+  "name": "wk",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
   "dependencies": {
-    "express": "^4.16.1"
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "~2.5.7",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "less-middleware": "~2.2.1",
+    "morgan": "~1.9.0"
   }
 }
